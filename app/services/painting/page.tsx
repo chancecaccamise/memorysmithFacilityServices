@@ -4,10 +4,11 @@
 
 
 import Footer from "@/components/demos/ui/footer";
-import PaintingLanding from "@/components/demos/ui/lawncareLanding";
+
 
 import Navbar from "@/components/demos/ui/navbar";
 import PaintingContact from "@/components/demos/ui/paintingContact";
+import PaintingLanding from "@/components/demos/ui/paintingLanding";
 
 
 
