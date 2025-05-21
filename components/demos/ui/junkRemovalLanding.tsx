@@ -18,7 +18,7 @@ export default function JunkRemovalLanding() {
             Fast, Reliable Junk Removal Services
           </h2>
           <p className="mt-6 text-lg text-gray-600">
-            Clear out unwanted items without the hassle. We provide full-service junk removal for homes, offices, rental properties, and job sites—hauling away furniture, appliances, debris, and more. Whether you're decluttering, preparing for a move, or handling a cleanout, our team ensures a clean slate quickly and responsibly.
+            Clear out unwanted items without the hassle. We provide full-service junk removal for homes, offices, rental properties, and job sites—hauling away furniture, appliances, debris, and more. Whether you&apos;re decluttering, preparing for a move, or handling a cleanout, our team ensures a clean slate quickly and responsibly.
           </p>
           <ul className="mt-8 space-y-6">
             <li className="flex items-start">

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import Link from 'next/link';
 import {
@@ -11,8 +11,17 @@ import {
   Droplets,
   Trash2,
 } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
-const services = [
+interface Service {
+  title: string;
+  description: string;
+  image: string;
+  icon: LucideIcon;
+  link: string;
+}
+
+const services: Service[] = [
   {
     title: "Residential & Commercial Lawncare",
     description: "Professional lawn maintenance for homes, offices, and properties of all sizes.",
@@ -71,7 +80,7 @@ const services = [
   },
 ];
 
-const ServiceCard = ({ title, description, image, icon: Icon, link }: any) => (
+const ServiceCard = ({ title, description, image, icon: Icon, link }: Service) => (
   <Link href={link} className="w-full">
     <div className="bg-white rounded-xl shadow-[0_-6px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_-10px_25px_rgba(0,0,0,0.12)] p-6 transition group flex flex-col items-center text-center cursor-pointer h-full">
       {/* Image with hover overlay */}
@@ -87,7 +96,6 @@ const ServiceCard = ({ title, description, image, icon: Icon, link }: any) => (
       <h3 className="font-semibold text-lg mb-1">{title}</h3>
       <p className="text-gray-600 text-sm mb-4">{description}</p>
 
-      {/* Optional: Keep the CTA text visible */}
       <div className="text-blue-400 font-medium opacity-0 group-hover:opacity-100 transition duration-300">
         Learn More →
       </div>
@@ -99,12 +107,12 @@ const ServicesGrid = () => {
   return (
     <section className="py-20 px-6 max-w-7xl mx-auto">
       <div className="text-center mb-14">
-      <h2 className="text-4xl font-bold text-gray-900 mb-4">
-        We're Here to Help with All Your Property Needs
-      </h2>
-      <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-      We love helping people take care of their homes and businesses. Whether it&apos;s a fresh coat of paint or a full cleanup, you can count on us to treat your space like our own.
-      </p>
+        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          We&apos;re Here to Help with All Your Property Needs
+        </h2>
+        <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          We love helping people take care of their homes and businesses. Whether it&apos;s a fresh coat of paint or a full cleanup, you can count on us to treat your space like our own.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">

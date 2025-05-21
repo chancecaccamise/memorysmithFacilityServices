@@ -27,7 +27,7 @@ const LocationSection = () => {
           Located in the heart of Savannah, Memorysmith Facility Services is your trusted local provider for residential and commercial property maintenance. From expert lawn care and professional painting to reliable moving, hauling, and recycling, our team is here to serve the community with skilled, dependable service.
           </p>
           <p className="text-gray-700 mb-6">
-          Stop by our office at 515 East Waldburg Street to learn more about our full range of services, including detailed cleaning, precision carpentry, handyman repairs, and pressure washing. Whether you're a homeowner or a business owner, we&apos;re committed to helping you maintain and enhance your property with care and craftsmanship.
+          Stop by our office at 515 East Waldburg Street to learn more about our full range of services, including detailed cleaning, precision carpentry, handyman repairs, and pressure washing. Whether you&apos;re a homeowner or a business owner, we&apos;re committed to helping you maintain and enhance your property with care and craftsmanship.
           </p>
           <a
             href="/contact"

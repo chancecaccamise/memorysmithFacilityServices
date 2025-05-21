@@ -18,7 +18,7 @@ export default function MovingHaulingLanding() {
             Moving, Hauling & Recycling Services
           </h2>
           <p className="mt-6 text-lg text-gray-600">
-            Whether you're relocating, decluttering, or managing property cleanouts, our team offers reliable moving, hauling, and eco-conscious recycling solutions for homes and businesses. We handle the heavy lifting, sort responsibly, and help restore clean, usable spaces—quickly and professionally.
+            Whether you&apos;re relocating, decluttering, or managing property cleanouts, our team offers reliable moving, hauling, and eco-conscious recycling solutions for homes and businesses. We handle the heavy lifting, sort responsibly, and help restore clean, usable spaces—quickly and professionally.
           </p>
           <ul className="mt-8 space-y-6">
             <li className="flex items-start">
