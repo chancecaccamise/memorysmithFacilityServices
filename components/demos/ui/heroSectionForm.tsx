@@ -15,9 +15,9 @@ const navigation = [
     items: [
       { name: 'Residential & Commercial Lawncare', href: '/services/lawncare' },
       { name: 'Residential & Commercial Painting', href: '/services/painting' },
+      { name: 'Residential & Commercial Cleaning', href: '/services/cleaning' },
       { name: 'Moving, Hauling, & Recycling', href: '/services/movingHauling' },
       { name: 'Furniture Assembly/Disassembly', href: '/services/furniture' },
-      { name: 'Residential & Commercial Cleaning', href: '/services/cleaning' },
       { name: 'Carpentry & Handyman Services', href: '/services/carpentry' },
       { name: 'Pressure Washing', href: '/services/pressureWashing' },
       { name: 'Junk Removal', href: '/services/junkRemoval' },
@@ -226,11 +226,11 @@ export default function HeroSection() {
                   <label htmlFor="service" className="block text-sm font-semibold text-gray-900 pb-2">Select a Service</label>
                   <select id="service" name="service" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 focus:outline-blue-400">
                     <option value="" disabled selected>Select a service</option>
+                    <option value="residential-commercial-cleaning">Residential + Commercial Cleaning</option>
                     <option value="residential-commercial-lawncare">Residential + Commecial Lawncare</option>
                     <option value="residential-commercial-painting">Residential + Commercial Painting</option>
                     <option value="moving-hauling-recycling">Reliable Moving, Hauling + Recycling</option>
                     <option value="furniture-assembly-disassembly">Furniture Reassembly + Disassembly</option>
-                    <option value="residential-commercial-cleaning">Residential + Commercial Cleaning</option>
                     <option value="carpentry-handyman">Carpentry + Handyman</option>
                     <option value="pressure-washing">Pressure Washing</option>
                     <option value="junk-removal">Junk Removal</option>

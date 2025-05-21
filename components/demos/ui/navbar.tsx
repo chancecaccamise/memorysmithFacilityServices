@@ -14,9 +14,9 @@ const navigation = [
     items: [
       { name: 'Residential & Commercial Lawncare', href: '/services/lawncare' },
       { name: 'Residential & Commercial Painting', href: '/services/painting' },
+      { name: 'Residential & Commercial Cleaning', href: '/services/cleaning' },
       { name: 'Moving, Hauling, & Recycling', href: '/services/movingHauling' },
       { name: 'Furniture Assembly/Disassembly', href: '/services/furniture' },
-      { name: 'Residential & Commercial Cleaning', href: '/services/cleaning' },
       { name: 'Carpentry & Handyman Services', href: '/services/carpentry' },
       { name: 'Pressure Washing', href: '/services/pressureWashing' },
       { name: 'Junk Removal', href: '/services/junkRemoval' },

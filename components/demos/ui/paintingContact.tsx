@@ -7,7 +7,7 @@ export default function PaintingContact() {
   const [state, handleSubmit] = useForm("mbloejbz");
 
   return (
-    <div id="contact" className="relative isolate bg-gray-50 pt-36 pb-20 scroll-mt-36 min-h-screen">
+    <div id="contact" className="relative isolate bg-gray-50 pt-20 pb-20 scroll-mt-36 min-h-screen">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         {/* Left Column: Painting-focused paragraph */}
         <div className="relative px-6 pt-8 pb-20 lg:static lg:px-8 lg:py-24">

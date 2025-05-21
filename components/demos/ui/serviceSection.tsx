@@ -23,6 +23,13 @@ interface Service {
 
 const services: Service[] = [
   {
+    title: "Residential & Commercial Cleaning",
+    description: "Comprehensive cleaning tailored for homes, offices, and rental turnovers.",
+    image: "/commercialCleaning.jpg",
+    icon: Sparkles,
+    link: "/services/cleaning",
+  },
+  {
     title: "Residential & Commercial Lawncare",
     description: "Professional lawn maintenance for homes, offices, and properties of all sizes.",
     image: "/lawncare.jpg",
@@ -50,13 +57,7 @@ const services: Service[] = [
     icon: Sofa,
     link: "/services/furniture",
   },
-  {
-    title: "Residential & Commercial Cleaning",
-    description: "Comprehensive cleaning tailored for homes, offices, and rental turnovers.",
-    image: "/commercialCleaning.jpg",
-    icon: Sparkles,
-    link: "/services/cleaning",
-  },
+  
   {
     title: "Carpentry & Handyman Services",
     description: "Skilled repairs and builds for residential and commercial needs.",
