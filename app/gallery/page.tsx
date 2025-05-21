@@ -5,7 +5,8 @@
 
 
 import Footer from "@/components/demos/ui/footer";
-import InstagramGallery from "@/components/demos/ui/instaGallery";
+import GallerySection from "@/components/demos/ui/instaGallery";
+
 
 import Navbar from "@/components/demos/ui/navbar";
 
@@ -21,7 +22,7 @@ export default function Home() {
       
       <section id="Home">
         <Navbar/>
-        <InstagramGallery/>
+        <GallerySection/>
         
       </section>
     
