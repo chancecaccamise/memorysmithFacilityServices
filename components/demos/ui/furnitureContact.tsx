@@ -4,7 +4,7 @@ import { useForm } from '@formspree/react';
 import React from 'react';
 
 export default function FurnitureContact() {
-  const [state, handleSubmit] = useForm("xeogelkl");
+  const [state, handleSubmit] = useForm("mbloejbz");
 
   return (
     <div id="contact" className="relative isolate bg-gray-50 pt-36 pb-20 scroll-mt-36 min-h-screen">
@@ -16,9 +16,9 @@ export default function FurnitureContact() {
               Book Furniture Disassembly or Setup Help
             </h2>
             <p className="mt-6 text-lg text-gray-600">
-              Whether you’re moving, renovating, or just need help getting furniture where it belongs, we make it easy. Our team carefully disassembles and reassembles beds, desks, shelving, and more — ensuring everything is transported safely and reinstalled securely.
+              Whether you&apos;re moving, renovating, or just need help getting furniture where it belongs, we make it easy. Our team carefully disassembles and reassembles beds, desks, shelving, and more — ensuring everything is transported safely and reinstalled securely.
               <br /><br />
-              Fill out the form to request a free quote. We’ll follow up shortly to learn about your space and how we can help.
+              Fill out the form to request a free quote. We&apos;ll follow up shortly to learn about your space and how we can help.
             </p>
           </div>
         </div>
