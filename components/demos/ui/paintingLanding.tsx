@@ -18,7 +18,7 @@ export default function PaintingLanding() {
             Interior & Exterior Painting Services
           </h2>
           <p className="mt-6 text-lg text-gray-600">
-            Give your home or business a fresh, professional look with our expert painting services. We specialize in residential and commercial projects of all sizes, offering high-quality finishes, clean lines, and long-lasting results. Whether you're upgrading curb appeal or refreshing indoor spaces, our skilled team delivers detail-oriented work you can count on.
+            Give your home or business a fresh, professional look with our expert painting services. We specialize in residential and commercial projects of all sizes, offering high-quality finishes, clean lines, and long-lasting results. Whether you&apos;re upgrading curb appeal or refreshing indoor spaces, our skilled team delivers detail-oriented work you can count on.
           </p>
           <ul className="mt-8 space-y-6">
             <li className="flex items-start">
