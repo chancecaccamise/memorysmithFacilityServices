@@ -18,7 +18,7 @@ export default function LawncareLanding() {
             Residential & Commercial Lawn Care
           </h2>
           <p className="mt-6 text-lg text-gray-600">
-            Our expert lawn care services keep your property looking pristine year-round. From routine mowing and edging to fertilization, weed control, and seasonal cleanups, we create lush, healthy landscapes that make a lasting impression. With custom maintenance plans designed to enhance curb appeal and promote long-term turf health, we ensure your outdoor space stays vibrant and well-maintained. Whether you're a homeowner or business owner, our reliable team delivers consistent, high-quality care you can count on.
+            Our expert lawn care services keep your property looking pristine year-round. From routine mowing and edging to fertilization, weed control, and seasonal cleanups, we create lush, healthy landscapes that make a lasting impression. With custom maintenance plans designed to enhance curb appeal and promote long-term turf health, we ensure your outdoor space stays vibrant and well-maintained. Whether you&apos;re a homeowner or business owner, our reliable team delivers consistent, high-quality care you can count on.
           </p>
           <ul className="mt-8 space-y-6">
             <li className="flex items-start">

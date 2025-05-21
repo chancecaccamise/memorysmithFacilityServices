@@ -37,7 +37,7 @@ export default function GallerySection() {
       <div className="max-w-7xl mx-auto text-center mb-14">
         <h2 className="text-4xl font-bold text-gray-900">Project Highlights</h2>
         <p className="mt-4 text-lg text-gray-600">
-          Explore the homes and businesses we've helped transform — from full-scale renovations to expert painting, pressure washing, junk removal, lawn care, and more.
+          Explore the homes and businesses we&apos;ve helped transform — from full-scale renovations to expert painting, pressure washing, junk removal, lawn care, and more.
         </p>
       </div>
 
