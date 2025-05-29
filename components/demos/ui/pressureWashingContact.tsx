@@ -2,6 +2,7 @@
 
 import { useForm } from '@formspree/react';
 import React from 'react';
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function PressureWashingContact() {
   const [state, handleSubmit] = useForm("mbloejbz");
@@ -20,6 +21,37 @@ export default function PressureWashingContact() {
               <br /><br />
               Fill out the form to request your free estimate. We&apos;ll follow up shortly to learn more about your space and get your project on the schedule.
             </p>
+            <dl className="mt-10 space-y-4 text-base text-gray-600">
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                </dt>
+                <dd>
+                  515 East Waldburg Street<br />
+                  Savannah, GA 31401
+                </dd>
+              </div>
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                </dt>
+                <dd>
+                  <a href="tel:+19124641185" className="hover:text-blue-500">
+                    +1 (912) 464-1185
+                  </a>
+                </dd>
+              </div>
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                </dt>
+                <dd>
+                  <a href="mailto:MFSSavannah@gmail.com" className="hover:text-blue-500">
+                  MFSSavannah@gmail.com
+                  </a>
+                </dd>
+              </div>
+            </dl>
           </div>
         </div>
 

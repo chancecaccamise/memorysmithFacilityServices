@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 4,
-    name: "Unknown",
+    name: "John S.",
     role: "Homeowner",
     content:
       "AMAZING SERVICE! Finding a company that excels in property management, lawn care, pressure washing or basically anything we need felt impossible, but Jonathan and his team- truly exceeded all expectations! Their property management is impeccable - requests are addressed promptly and efficiently, and communication is consistently clear and helpful",
@@ -53,7 +53,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 5,
-    name: "Unknown",
+    name: "Kiki D.",
     role: "Homeowner",
     content:
       "Jon and his trusted team at MemorySmith are hands down some of the best professionals I've had the pleasure of working with—both in my career as a property manager and personally for projects at my home. They’re incredibly knowledgeable, and you can tell they genuinely care about getting the job done right the first time.",
@@ -65,7 +65,7 @@ const testimonials: Testimonial[] = [
 
 export function TestimonialCarousel() {
   return (
-    <div className="relative w-full py-16 bg-white">
+    <div className="relative w-full pt-24 pb-16 bg-white">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-extrabold mb-4">What Our Customers Say</h2>
         <p className="text-slate-600 max-w-2xl mx-auto mb-10">
