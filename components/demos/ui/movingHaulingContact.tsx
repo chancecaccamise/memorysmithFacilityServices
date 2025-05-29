@@ -70,14 +70,15 @@ export default function MovingHaulingContact() {
               <div>
                 <label htmlFor="service" className="block text-sm font-semibold text-gray-900 pb-2">Select a Service</label>
                 <select id="service" name="service" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 focus:outline-blue-400">
-                <option value="residential-commercial-lawncare">Residential + Commecial Lawncare</option>
+                  <option value="junk-removal">Junk Removal</option>
+                  <option value="residential-commercial-lawncare">Residential + Commecial Lawncare</option>
                   <option value="residential-commercial-painting">Residential + Commercial Painting</option>
                   <option value="moving-hauling-recycling">Reliable Moving, Hauling + Recycling</option>
                   <option value="furniture-assembly-disassembly">Furniture Reassembly + Disassembly</option>
                   <option value="residential-commercial-cleaning">Residential + Commercial Cleaning</option>
                   <option value="carpentry-handyman">Carpentry + Handyman</option>
                   <option value="pressure-washing">Pressure Washing</option>
-                  <option value="junk-removal">Junk Removal</option>
+                  
                 </select>
               </div>
 

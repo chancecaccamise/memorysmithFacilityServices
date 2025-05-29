@@ -23,6 +23,13 @@ interface Service {
 
 const services: Service[] = [
   {
+    title: "Junk Removal",
+    description: "Fast and affordable junk pickup and responsible disposal.",
+    image: "/junkRemoval.jpg",
+    icon: Trash2,
+    link: "/services/junkRemoval",
+  },
+  {
     title: "Residential & Commercial Cleaning",
     description: "Comprehensive cleaning tailored for homes, offices, and rental turnovers.",
     image: "/commercialCleaning.jpg",
@@ -72,13 +79,7 @@ const services: Service[] = [
     icon: Droplets,
     link: "/services/pressureWashing",
   },
-  {
-    title: "Junk Removal",
-    description: "Fast and affordable junk pickup and responsible disposal.",
-    image: "/junkRemoval.jpg",
-    icon: Trash2,
-    link: "/services/junkRemoval",
-  },
+  
 ];
 
 const ServiceCard = ({ title, description, image, icon: Icon, link }: Service) => (
