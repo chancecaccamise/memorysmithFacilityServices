@@ -45,7 +45,7 @@ export default function LawncareLanding() {
         {/* Right Column: Image */}
         <div className="relative h-96 w-full">
           <Image
-            src="/lawncare.jpg" // Replace with your actual lawncare image path
+            src="/lawncareNew.jpg" // Replace with your actual lawncare image path
             alt="Lawncare team working on residential yard"
             layout="fill"
             objectFit="cover"
