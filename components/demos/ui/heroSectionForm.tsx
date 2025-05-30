@@ -40,7 +40,7 @@ export default function HeroSection() {
         <nav aria-label="Global" className="relative flex items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">TNT Roofing and Construction</span>
+              <span className="sr-only">Memorysmith Facility Services</span>
               <Image alt="TNT Roofing and Construction" src="/logo/logo.png" width={400} height={300} className="h-24 w-auto" />
             </Link>
           </div>
@@ -204,7 +204,7 @@ export default function HeroSection() {
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label htmlFor="phone-number" className="block text-sm font-semibold text-gray-900 pb-2">Phone number</label>
-                    <input id="phone-number" name="phone-number" type="tel" placeholder="(919) 438-1132" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
+                    <input id="phone-number" name="phone-number" type="tel" placeholder="(912) 464-1185" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-900 pb-2">Email</label>
@@ -219,7 +219,7 @@ export default function HeroSection() {
                   </div>
                   <div>
                     <label htmlFor="zip-code" className="block text-sm font-semibold text-gray-900 pb-2">Zip Code</label>
-                    <input id="zip-code" name="zip-code" type="text" placeholder="10001" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
+                    <input id="zip-code" name="zip-code" type="text" placeholder="31401" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
                   </div>
                 </div>
 
