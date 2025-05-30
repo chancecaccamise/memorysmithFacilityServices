@@ -80,7 +80,7 @@ export default function PaintingContact() {
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="phone-number" className="block text-sm font-semibold text-gray-900 pb-2">Phone number</label>
-                  <input id="phone-number" name="phone-number" type="tel" placeholder="(919) 438-1132" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
+                  <input id="phone-number" name="phone-number" type="tel" placeholder="(912) 464-1185" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-semibold text-gray-900 pb-2">Email</label>
@@ -95,7 +95,7 @@ export default function PaintingContact() {
                 </div>
                 <div>
                   <label htmlFor="zip-code" className="block text-sm font-semibold text-gray-900 pb-2">Zip Code</label>
-                  <input id="zip-code" name="zip-code" type="text" placeholder="27529" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
+                  <input id="zip-code" name="zip-code" type="text" placeholder="31401" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-400" />
                 </div>
               </div>
 

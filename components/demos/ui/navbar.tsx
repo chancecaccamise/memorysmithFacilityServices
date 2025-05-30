@@ -79,7 +79,7 @@ export default function Navbar() {
           {/* Right Section: Phone + Button */}
           <div className="hidden lg:flex lg:items-center space-x-6">
             <a href="tel:9194381132" className="text-lg font-semibold text-gray-900 hover:text-blue-400">
-              (919) 438-1132
+              (912) 464-1185
             </a>
             <Link
               href="/contact"
