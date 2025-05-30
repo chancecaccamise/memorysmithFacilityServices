@@ -11,7 +11,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/share/17fio4VHfy/?mibextid=wwXIfr',
+    href: 'https://www.facebook.com/profile.php?id=61571201865401',
     icon: (props: React.SVGProps<SVGSVGElement>) => (
       React.createElement(
         'svg',
